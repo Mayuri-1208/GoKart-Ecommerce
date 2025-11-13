@@ -1,0 +1,147 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 15px 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Brand/Logo styling */
+#navbar h1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+}
+
+/* Navigation links */
+#navbar div a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+#navbar div a:hover {
+    color: red;
+}
+
+/* Search Box */
+#searchBox {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 6px 10px;
+    border-radius: 20px;
+    gap: 8px;
+    max-width: 300px;
+}
+
+#searchBox input[type="search"] {
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 14px;
+    width: 200px;
+}
+
+#searchBox #icon {
+    color: #555;
+    font-size: 16px;
+}
+
+/* Cart Icon */
+.fa-cart-shopping {
+    font-size: 20px;
+    color: #333;
+}
+
+.fa-cart-shopping:hover {
+    color: red;
+}
+
+
+
+/* ----------------------------------------------------------------------------- */
+/* Container for all products */
+#productItem {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Each product card */
+main {
+    width: 220px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+main:hover {
+    transform: scale(1.05);
+}
+
+/* Image styling */
+#prodImage img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Title */
+#title {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    color: #333;
+}
+
+/* Price & Button section */
+#pricebox {
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.price {
+    color: green;
+    font-size: 15px;
+    margin-top: 7px;
+    
+}
+
+/* Button */
+#view {
+    padding: 8px 12px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#view:hover {
+    background-color: #0056b3;
+}
