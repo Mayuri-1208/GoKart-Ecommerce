@@ -39,16 +39,9 @@ GoKart-Ecommerce/
 
 
 ---
-
-## 🖼️ Preview
-![GoKart Screenshot](https://user-images.githubusercontent.com/placeholder/800x400.png)
-> *Add your project screenshot here (upload via GitHub Issues or drag image in README editor).*
-
----
-
 ## 👩‍💻 Author
 **Mayuri Sawant**  
-📧 [your.email@example.com]  
+📧 [sawant.mayu1208@gmail.com]  
 🌐 [GitHub Profile](https://github.com/Mayuri-1208)
 
 ---
